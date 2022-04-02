@@ -1,5 +1,5 @@
 import React from "react";
-import { ClassNames } from '@emotion/react';
+import { ClassNames } from "@emotion/react";
 import "./Button.scss";
 
 export interface ButtonProps {
@@ -12,7 +12,13 @@ const Button = (props: ButtonProps) => {
   return (
     <ClassNames>
       {({ cx }) => (
-        <button className={cx("angelo-ui-button", { "angelo-ui-small": props.small }, { "angelo-ui-large": props.large })}>
+        <button
+          className={cx(
+            "angelo-ui-button",
+            { "angelo-ui-small": props.small },
+            { "angelo-ui-large": props.large }
+          )}
+        >
           {props.label}
         </button>
       )}
