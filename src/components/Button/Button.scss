@@ -1,0 +1,20 @@
+.angelo-ui-button {
+  background-color: #80CBC4;
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  color: #000000;
+  padding: 1rem;
+}
+
+.angelo-ui-button.angelo-ui-small {
+  padding: 0.75rem;
+}
+
+.angelo-ui-button.angelo-ui-large {
+  padding: 1.25rem;
+}
+
+.angelo-ui-button:hover {
+  background-color: #6FC5C2;
+}
