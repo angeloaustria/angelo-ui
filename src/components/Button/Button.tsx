@@ -1,6 +1,6 @@
 import React from "react";
-import { ClassNames, keyframes } from "@emotion/react";
-import "./Button.scss";
+import { ClassNames } from "@emotion/react";
+import "./Button.css";
 
 export interface ButtonProps {
   disabled?: boolean;

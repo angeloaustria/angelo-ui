@@ -1,6 +1,6 @@
 import React, { InputHTMLAttributes } from "react";
 import { ClassNames } from "@emotion/react";
-import "./Input.scss";
+import "./Input.css";
 
 export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   fullWidth?: boolean;
