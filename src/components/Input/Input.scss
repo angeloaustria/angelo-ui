@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto:wght@300&display=swap');
+
+.angelo-ui-input {
+  border: 0;
+  box-shadow: #80cbc4 0px 0px 0px 1px inset;
+  font-family: 'Maven Pro', sans-serif;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.angelo-ui-input:focus-visible {
+  outline-color: #80cbc4;
+}
+
+.angelo-ui-input.angelo-ui-full-width {
+  width: 100%;
+}
+
+.angelo-ui-input.angelo-ui-small {
+  padding: 0.75rem;
+}
+
+.angelo-ui-input.angelo-ui-large {
+  padding: 1.25rem;
+}
