@@ -3,8 +3,8 @@ import { ClassNames } from "@emotion/react";
 import "./Chat.css";
 
 export interface ChatProps {
-    sender?: boolean;
-    text: string;
+  sender?: boolean;
+  text: string;
 }
 
 const Chat: React.FC<ChatProps> = (props) => {
@@ -18,7 +18,7 @@ const Chat: React.FC<ChatProps> = (props) => {
             { "angelo-ui-chat-sender": props.sender }
           )}
         >
-            {props.text}
+          {props.text}
         </div>
       )}
     </ClassNames>

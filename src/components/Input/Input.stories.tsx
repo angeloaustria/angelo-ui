@@ -16,5 +16,5 @@ export const ClickMe = Template.bind({});
 ClickMe.args = {
   disabled: false,
   placeholder: "Enter message",
-  value: "Hello world"
+  value: "Hello world",
 };

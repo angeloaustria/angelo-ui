@@ -15,5 +15,5 @@ const Template: ComponentStory<typeof Chat> = (args) => <Chat {...args} />;
 export const ClickMe = Template.bind({});
 ClickMe.args = {
   sender: false,
-  text: "Hello world"
+  text: "Hello world",
 };

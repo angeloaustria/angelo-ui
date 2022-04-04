@@ -1,16 +1,16 @@
 .angelo-ui-chat {
-    font-family: 'Maven Pro', sans-serif;
-    max-width: 250px;
-    padding: 1rem;
-    word-wrap: break-word;
+  font-family: "Maven Pro", sans-serif;
+  max-width: 250px;
+  padding: 1rem;
+  word-wrap: break-word;
 }
 
 .angelo-ui-chat-receiver {
-    background-color: #80cbc4;
-    border-radius: 1rem 1rem 0;
+  background-color: #80cbc4;
+  border-radius: 1rem 1rem 0;
 }
 
 .angelo-ui-chat-sender {
-    background-color: #fff9fb;
-    border-radius: 1rem 1rem 1rem 0;
+  background-color: #fff9fb;
+  border-radius: 1rem 1rem 1rem 0;
 }
