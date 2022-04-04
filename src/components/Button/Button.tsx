@@ -1,8 +1,8 @@
-import React from "react";
+import React, { ButtonHTMLAttributes } from "react";
 import { ClassNames } from "@emotion/react";
 import "./Button.css";
 
-export interface ButtonProps {
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   disabled?: boolean;
   label: string;
   large?: boolean;
@@ -10,18 +10,19 @@ export interface ButtonProps {
 }
 
 const Button = (props: ButtonProps) => {
+  const { large, small, ...otherButtonProps } = props;
   return (
     <ClassNames>
       {({ cx }) => (
         <button
-          disabled={props.disabled}
           className={cx(
             "angelo-ui-button",
-            { "angelo-ui-small": props.small },
-            { "angelo-ui-large": props.large }
+            { "angelo-ui-small": small },
+            { "angelo-ui-large": large }
           )}
+          {...otherButtonProps}
         >
-          {props.label}
+          {otherButtonProps.label}
         </button>
       )}
     </ClassNames>
