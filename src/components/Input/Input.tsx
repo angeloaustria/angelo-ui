@@ -10,7 +10,7 @@ export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
 }
 
 const Input: React.FC<InputProps> = (props) => {
-  const { fullWidth, small, large, inputRef, ...otherInputProps } = props;
+  const { fullWidth, inputRef, large, small, ...otherInputProps } = props;
   return (
     <ClassNames>
       {({ cx }) => (
@@ -18,9 +18,9 @@ const Input: React.FC<InputProps> = (props) => {
           ref={inputRef}
           className={cx(
             "angelo-ui-input",
-            { "angelo-ui-full-width": props.fullWidth },
-            { "angelo-ui-small": props.small },
-            { "angelo-ui-large": props.large }
+            { "angelo-ui-full-width": fullWidth },
+            { "angelo-ui-small": small },
+            { "angelo-ui-large": large }
           )}
           {...otherInputProps}
         />
