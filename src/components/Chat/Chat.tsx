@@ -1,4 +1,4 @@
-import React, { InputHTMLAttributes } from "react";
+import React from "react";
 import { ClassNames } from "@emotion/react";
 import "./Chat.css";
 
@@ -7,7 +7,7 @@ export interface ChatProps {
     text: string;
 }
 
-const Input: React.FC<ChatProps> = (props) => {
+const Chat: React.FC<ChatProps> = (props) => {
   return (
     <ClassNames>
       {({ cx }) => (
@@ -25,4 +25,4 @@ const Input: React.FC<ChatProps> = (props) => {
   );
 };
 
-export default Input;
+export default Chat;
