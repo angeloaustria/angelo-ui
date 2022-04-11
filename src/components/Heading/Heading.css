@@ -1,0 +1,14 @@
+.angelo-ui-heading {
+    color: #6fc5c2;
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.angelo-ui-heading-bold {
+    font-weight: 700;
+}
+
+.angelo-ui-heading-underline {
+    text-decoration: underline;
+}

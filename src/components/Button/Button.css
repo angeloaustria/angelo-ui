@@ -19,6 +19,6 @@
 }
 
 .angelo-ui-button:disabled {
-  background-color: rgba(#6fc5c2, 0.5);
+  background-color: rgba(111,197,194, 0.5);
   color: rgba(#000000, 0.5);
 }
