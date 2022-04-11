@@ -5,7 +5,8 @@
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=14151325cc67"
   },
   "author": "Angelo Austria",
   "license": "ISC",
@@ -25,6 +26,7 @@
     "@storybook/testing-library": "^0.0.9",
     "@types/react": "^17.0.34",
     "babel-loader": "^8.2.4",
+    "chromatic": "^6.5.4",
     "css-loader": "^3.6.0",
     "prettier": "2.3.0",
     "rollup": "^2.70.1",
